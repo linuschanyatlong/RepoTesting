@@ -1,4 +1,5 @@
-import java.util.Random;
+//java testing CopyRight Notice @I have a pen
+2007import java.util.Random;
 
 public class GuessingGame{
 

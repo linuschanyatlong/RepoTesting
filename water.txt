@@ -1,3 +1,4 @@
+<<This is copyright notice @I have a pen>> 
 newly added FIRST LINE
 a line
 b line

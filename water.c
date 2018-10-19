@@ -1,3 +1,4 @@
+/* Copyright Notce @	I have a pen*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
