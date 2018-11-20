@@ -1,0 +1,86 @@
+<<This is copyright notice @1234>> 
+<<This is copyright notice @Jimmy haha>> 
+<<This is copyright notice @happy to get iphone>> 
+<<This is copyright notice @r23r23>> 
+<<This is copyright notice @12312>> 
+<<This is copyright notice @1323>> 
+<<This is copyright notice @123123>> 
+<<This is copyright notice @123>> 
+<<This is copyright notice @12312>> 
+<<This is copyright notice @21312>> 
+<<This is copyright notice @123>> 
+<<This is copyright notice @3123>> 
+<<This is copyright notice @123>> 
+<<This is copyright notice @213>> 
+<<This is copyright notice @123>> 
+<<This is copyright notice @12312>> 
+<<This is copyright notice @1232>> 
+<<This is copyright notice @123123>> 
+<<This is copyright notice @123>> 
+<<This is copyright notice @3333>> 
+<<This is copyright notice @123>> 
+<<This is copyright notice @1234>> 
+<<This is copyright notice @mouse testing>> 
+<<This is copyright notice @1234546>> 
+<<This is copyright notice @123456>> 
+<<This is copyright notice @1234>> 
+<<This is copyright notice @This is a coffee>> 
+<<This is copyright notice @1234>> 
+<<This is copyright notice @1234>> 
+<<This is copyright notice @php testing>> 
+<<This is copyright notice @ee>> 
+<<This is copyright notice @22>> 
+<<This is copyright notice @kk>> 
+<<This is copyright notice @12312>> 
+<<This is copyright notice @ggg>> 
+<<This is copyright notice @iron man>> 
+<<This is copyright notice @BBBB>> 
+<<This is copyright notice @hahaha>> 
+<<This is copyright notice @rr>> 
+<<This is copyright notice @1231>> 
+<<This is copyright notice @pen>> 
+<<This is copyright notice @penpenepen>> 
+<<This is copyright notice @penpen>> 
+<<This is copyright notice @Nearly finisjhed>> 
+<<This is copyright notice @repotesting>> 
+<<This is copyright notice @water>> 
+<<This is copyright notice @RepoTesting>> 
+<<This is copyright notice @RepoTesting>> 
+<<This is copyright notice @duplicated>> 
+<<This is copyright notice @the first merge>> 
+<<This is copyright notice @2131>> 
+<<This is copyright notice @this is duplicate>> 
+Principle of categoring complcated case:
+1.) If repository (either Private or Public) has no copyright notice and contain unknown contibutors , it belongs to case 9.
+
+For the repository highlighted in yellow, I need more information before further action.  These repositories could be classified by following feature:
+
+1.a) Repository has no copyright notice, but under Creative Commons Attribution-ShareAlike 4.0 International License. Anthropomorphic-Robot-Hand and Sophia-Head are belong to this type. So I guess HR cannot own this repository's copyright?
+
+1.b) Repository has no copyright notice, but under Apache License 2.0.  relex is belongs to this type.   So I guess HR cannot own this repository's copyright?
+
+2.) The repository is empty.  I suppose we don't need further action for these repositories? 
+
+3.) The repository is under "Unlicense".  In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain.  pau2csv is belongs to this type.
+So I guess HR cannot own this repository's copyright?  
+
+4.) Repo, cogutils, contains 3 license documents. In LICENSE.AGPL, there is a copyright notice, Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>.  Can I consider the copyright is belongs to other organisation (which is case 7 for further action) ?
+
+5.) Repository contains unidenified HR member who are not listed in contractors list.  As I mentioned before, repository with unknown contribtors and no copyright notice would be considered as case 9.  And I believe case 9 would cost highrt efort.  Therefore, it would be great if a repository is 100% contibuted by HR members.  I discovered that there are 5 possible repositories, BaccaratDealer, baccarat_embeded, robosapien, CharacterEngine, MotionOrchestrator, that maybe 100% contributed by HR members. Some of the contribtors claim themselves are HR member but not in the contractors list. Their names are as follow ([] is github account name):
+[SGSSGene]
+[nerdmaennchen] = Lutz Freitag
+[N-zewge]
+[DrDavidHanson]
+[dackley1935]
+If they are really HR member and work in HK/US, we can put these repositories as case 3 and do simpler action.  Can  you confirm their identity for me?
+
+
+
+
+
+
+
+
+

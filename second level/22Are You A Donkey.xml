@@ -1,0 +1,260 @@
+<!--This is copyright notice @1234--> 
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="tts" id="0d2a5328-99c2-4bda-bc1b-13c52531d578" x="236.0" y="765.0">
+    <value name="VALUE">
+      <shadow type="text" id="075d2883-f9be-4d09-95a4-9fcc0fc3aca9">
+        <field name="TEXT">Are you a donkey?</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="stt" id="59a85627-8017-4ed6-b52c-7906a09d9001">
+        <next>
+          <block type="controls_if" id="350de4c8-81bb-44fe-a864-8fb40778acec">
+            <mutation elseif="1" else="1" />
+            <value name="IF0">
+              <block type="checkCurrentSTT" id="e01c655b-52a1-49e7-a92e-c4e6ccb07a42">
+                <value name="VALUE">
+                  <shadow type="text" id="21feeebe-7617-46d2-85d9-510285defd4c">
+                    <field name="TEXT">No</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="tts" id="98a7ffd4-c2e7-49f6-8b94-80fda673412c">
+                <value name="VALUE">
+                  <shadow type="text" id="97f617d9-8dd9-4273-b475-0a78f342b963">
+                    <field name="TEXT">Good news! You are not a donkey.</field>
+                  </shadow>
+                </value>
+              </block>
+            </statement>
+            <value name="IF1">
+              <block type="checkCurrentSTT" id="3828c472-cb1a-4164-a04c-5f80cad1e592">
+                <value name="VALUE">
+                  <shadow type="text" id="fc98f601-29b7-4cf7-bd25-12873a9dc2ae">
+                    <field name="TEXT">Yes</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <statement name="DO1">
+              <block type="tts" id="9bad1267-fe93-4bfa-a8d9-5ff0f026d956">
+                <value name="VALUE">
+                  <shadow type="text" id="914a6aa5-410e-41f3-adb9-5274f59942ec">
+                    <field name="TEXT">How many legs do you walk on? kids.</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="stt" id="8f960870-e581-4e01-b403-0f94dffada82">
+                    <next>
+                      <block type="controls_if" id="694684d8-e8c0-4434-a5eb-2b0353fd33df">
+                        <mutation elseif="1" else="1" />
+                        <value name="IF0">
+                          <block type="checkCurrentSTT" id="5d52629e-aeee-4909-b631-227bf1722172">
+                            <value name="VALUE">
+                              <shadow type="text" id="07125705-5978-4b44-b061-f5241c271d05">
+                                <field name="TEXT">Two</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="tts" id="a5d2eac2-0d12-458a-a8b3-4e016097079a">
+                            <value name="VALUE">
+                              <shadow type="text" id="0e1a3288-3228-43fe-b4b5-ab8bacc533aa">
+                                <field name="TEXT">Good news! You are not donkey.</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </statement>
+                        <value name="IF1">
+                          <block type="checkCurrentSTT" id="835ca58c-3550-4657-863a-6f690aca9772">
+                            <value name="VALUE">
+                              <shadow type="text" id="6e3300e5-e11f-4291-be28-1d9b6840dda2">
+                                <field name="TEXT">Four</field>
+                              </shadow>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO1">
+                          <block type="tts" id="b4d03731-c956-46aa-b18a-308ef9a4cd01">
+                            <value name="VALUE">
+                              <shadow type="text" id="bbc7fa8c-acaa-4f24-923b-10ef96288a42">
+                                <field name="TEXT">Really?</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="stt" id="55e56bd5-1070-4ed8-8b07-a75a758b5f73">
+                                <next>
+                                  <block type="controls_if" id="1b11429a-5f87-477c-bdc7-3021f71d0530">
+                                    <mutation elseif="1" else="1" />
+                                    <value name="IF0">
+                                      <block type="checkCurrentSTT" id="c9c5ba32-ffb8-4eae-91cb-1b1937f5aa2f">
+                                        <value name="VALUE">
+                                          <shadow type="text" id="983d6b19-5bfb-4281-85b4-77c715f6a102">
+                                            <field name="TEXT">No</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <statement name="DO0">
+                                      <block type="tts" id="6460d8e3-3e5b-43d9-9b1d-6729d7f0a179">
+                                        <value name="VALUE">
+                                          <shadow type="text" id="8006ea75-d716-4fa0-b1ae-5d111a858e51">
+                                            <field name="TEXT">Good news! You are not a donkey.</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </statement>
+                                    <value name="IF1">
+                                      <block type="checkCurrentSTT" id="6e68fd24-b184-4daa-be88-3e7d6ffc3cd5">
+                                        <value name="VALUE">
+                                          <shadow type="text" id="4df17291-c99a-4665-9a28-d43824c2f676">
+                                            <field name="TEXT">Yes</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </value>
+                                    <statement name="DO1">
+                                      <block type="tts" id="2ca52c4d-f6e9-4881-bc50-82830b2498d1">
+                                        <value name="VALUE">
+                                          <shadow type="text" id="a2657979-a723-4059-8416-23377baf264f">
+                                            <field name="TEXT">Are you prized as a wonderful companion and steadying influence to young horses at feeding time?</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="stt" id="6f3c5c65-bd87-4aef-977f-c78e665af049">
+                                            <next>
+                                              <block type="controls_if" id="19b76f99-a39c-491b-af2e-de4cc2be5137">
+                                                <mutation elseif="1" else="1" />
+                                                <value name="IF0">
+                                                  <block type="checkCurrentSTT" id="8a5df809-889f-4d61-a6f4-46782a5ad26b">
+                                                    <value name="VALUE">
+                                                      <shadow type="text" id="109e3df9-6c65-4b30-931d-2efd45a6b122">
+                                                        <field name="TEXT">No</field>
+                                                      </shadow>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <statement name="DO0">
+                                                  <block type="tts" id="4fa4d2db-152e-489c-a558-96f6d973fd0c">
+                                                    <value name="VALUE">
+                                                      <shadow type="text" id="46fda12b-ea2a-4d29-b6c8-61a3b34c4359">
+                                                        <field name="TEXT">Good news! You are not a donkey.</field>
+                                                      </shadow>
+                                                    </value>
+                                                  </block>
+                                                </statement>
+                                                <value name="IF1">
+                                                  <block type="checkCurrentSTT" id="3964bd57-8252-48ca-b389-f550018c579f">
+                                                    <value name="VALUE">
+                                                      <shadow type="text" id="a12f918f-18ca-4b98-a7c4-7484b646b535">
+                                                        <field name="TEXT">Yes</field>
+                                                      </shadow>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <statement name="DO1">
+                                                  <block type="tts" id="72ddac56-05d1-4cda-8538-9db8208e66b5">
+                                                    <value name="VALUE">
+                                                      <shadow type="text" id="06acb765-ac7f-4169-8f8f-bd5026fa725b">
+                                                        <field name="TEXT">Can you talk?</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <next>
+                                                      <block type="stt" id="3a2d32ea-8439-4a17-8898-ae8a4da4bb38">
+                                                        <next>
+                                                          <block type="controls_if" id="90d2a647-c402-4573-8581-ec328bb292e5">
+                                                            <mutation elseif="1" else="1" />
+                                                            <value name="IF0">
+                                                              <block type="checkCurrentSTT" id="46f7efa5-f011-46a6-89d4-32d2063ca732">
+                                                                <value name="VALUE">
+                                                                  <shadow type="text" id="63134862-d88a-4ec9-86d7-10f37d0fa458">
+                                                                    <field name="TEXT">No</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <statement name="DO0">
+                                                              <block type="tts" id="90f107a3-af47-412d-9462-ecca521175b2">
+                                                                <value name="VALUE">
+                                                                  <shadow type="text" id="fd48a561-c2ca-440a-97f4-35740580d54f">
+                                                                    <field name="TEXT">I am pretty sure you are talking to me right now.  Good news. You are not a donkey.</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </statement>
+                                                            <value name="IF1">
+                                                              <block type="checkCurrentSTT" id="555c2aed-d12e-49bd-bb81-4b1e5f79a94f">
+                                                                <value name="VALUE">
+                                                                  <shadow type="text" id="9c3115d8-1b40-458b-b53a-c12df7f51300">
+                                                                    <field name="TEXT">Yes</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </value>
+                                                            <statement name="DO1">
+                                                              <block type="tts" id="047c3b1f-3453-4c16-ba89-93a7d63d929d">
+                                                                <value name="VALUE">
+                                                                  <shadow type="text" id="c0f38345-d201-484e-81c5-ce71e1414819">
+                                                                    <field name="TEXT">Good news. You are not a donkey.</field>
+                                                                  </shadow>
+                                                                </value>
+                                                              </block>
+                                                            </statement>
+                                                            <statement name="ELSE">
+                                                              <block type="head" id="8837b309-f7ce-400f-bac9-38d05e31adbc">
+                                                                <field name="TEXT">&lt;MO=HN,0,1&gt;&lt;PA=0&gt;&lt;MO=HN,1,1&gt;&lt;PA=0&gt;&lt;MO=HN,0.5,1&gt;</field>
+                                                              </block>
+                                                            </statement>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </statement>
+                                                <statement name="ELSE">
+                                                  <block type="Agreement" id="731bea62-07b0-4931-b16d-cec8b118c77a">
+                                                    <field name="TEXT">&lt;MO=HN,0,1&gt;&lt;PA=0&gt;&lt;MO=HN,1,1&gt;&lt;PA=0&gt;&lt;MO=HN,0.5,1&gt;&lt;PA=0&gt;&lt;MO=HN,0,1&gt;&lt;PA=0&gt;&lt;MO=HN,1,1&gt;&lt;PA=0&gt;&lt;MO=HN,0.5,1&gt;&lt;PA=0&gt;&lt;MO=HN,0,1&gt;&lt;PA=0&gt;&lt;MO=HN,1,1&gt;&lt;PA=0&gt;&lt;MO=HN,0.5,1&gt;</field>
+                                                  </block>
+                                                </statement>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </statement>
+                                    <statement name="ELSE">
+                                      <block type="eyeball" id="ffef7c05-06e4-4db8-964a-266b56f9dbeb">
+                                        <field name="TEXT">&lt;MO=HT,0.45,1&gt;&lt;PA=0&gt;&lt;MO=HT,0.55,1&gt;&lt;PA=0&gt;&lt;MO=HT,0.5,1&gt;</field>
+                                      </block>
+                                    </statement>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                        <statement name="ELSE">
+                          <block type="arm" id="2d7a875b-05a4-4078-bfd1-faf2190c2af8">
+                            <field name="TEXT">&lt;MO=AR,1,1&gt;&lt;PA=0&gt;&lt;MO=AR,0,1&gt;</field>
+                          </block>
+                        </statement>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="Surprise" id="1f9b3599-27ac-4c27-9850-2bab4a2898ac">
+                <field name="TEXT">&lt;MO=CH,1,1&gt;&lt;MO=MO,0,1&gt;&lt;MO=EL,1,1&gt;&lt;MO=EB,0,1&gt;&lt;MO=HN,0.5,1&gt;&lt;PA=0&gt;&lt;MO=EL,0,1&gt;&lt;PA=0&gt;&lt;MO=MO,0.6,1.5&gt;</field>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

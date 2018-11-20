@@ -1,4 +1,4 @@
-//java testing CopyRight Notice @I have a pen
+// Copyright Notce @	1234
 2007import java.util.Random;
 
 public class GuessingGame{

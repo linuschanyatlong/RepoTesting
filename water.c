@@ -1,4 +1,4 @@
-/* Copyright Notce @	I have a pen*/
+// Copyright Notce @	1234
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

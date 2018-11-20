@@ -1,4 +1,4 @@
-#py testing CopyRight Notice @ I have a pen
+// CopyRight Notice @1234
 import os, sys
 
 count = 0
